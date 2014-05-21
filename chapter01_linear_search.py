@@ -15,7 +15,7 @@ cases = [case1, case2, case3]
 
 
 # main code
-def insertion_sort(array_to_sort, V):
+def linear_search(array, V):
     '''
     Takes an array of numbers and searches for a number that's equal to V.
     Returns the index of a found match.
@@ -35,7 +35,7 @@ def insertion_sort(array_to_sort, V):
 
     # declare variables
     A = []
-    A.extend(array_to_sort)
+    A.extend(array)
 
     N = len(A)
 
@@ -54,5 +54,5 @@ def insertion_sort(array_to_sort, V):
 print("\n\nThese are the results:")
 
 for i, case in enumerate(cases):
-    print "#" + str(i + 1), case, "\t->\t", insertion_sort(case[0], case[1])
+    print "#" + str(i + 1), case, "\t->\t", linear_search(case[0], case[1])
     print("\n")
