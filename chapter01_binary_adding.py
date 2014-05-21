@@ -15,14 +15,14 @@ cases = [case1, case2, case3]
 
 
 # main code
-def insertion_sort(A, B):
+def binary_adding(A, B):
     '''
     Takes 2 binary numbers, adds them, returns the sum.
 
     (array, array) -> array
 
 
-    >>> insertion_sort(1001, 1101)
+    >>> binary_adding(1001, 1101)
     10110
 
     '''
@@ -77,5 +77,5 @@ def insertion_sort(A, B):
 print("\n\nThese are the results:")
 
 for i, case in enumerate(cases):
-    print "#" + str(i + 1), case, "\t->\t", insertion_sort(case[0], case[1])
+    print "#" + str(i + 1), case, "\t->\t", binary_adding(case[0], case[1])
     print("\n")
