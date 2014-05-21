@@ -3,7 +3,7 @@
 
 
 # Introduction to Algorithms
-# Chapter 1 - Insertion Sort, reversed(1.2)
+# Chapter 1 - Insertion Sort, reversed(1.1.2)
 
 
 # declare variables
@@ -15,7 +15,7 @@ cases = [case1, case2, case3]
 
 
 # main code
-def insertion_sort(array_to_sort):
+def reversed_insertion_sort(array_to_sort):
     '''
     Takes an array of numbers and sorts it from highest to lowest.
 
@@ -64,5 +64,5 @@ def insertion_sort(array_to_sort):
 print("\n\nThese are the results:")
 
 for i, case in enumerate(cases):
-    print "#" + str(i + 1), case, "\tinto\t", insertion_sort(case)
+    print "#" + str(i + 1), case, "\tinto\t", reversed_insertion_sort(case)
     print("\n")

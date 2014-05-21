@@ -3,7 +3,7 @@
 
 
 # Introduction to Algorithms
-# Chapter 1 - Insertion Sort(1.1)
+# Chapter 1 - Insertion Sort(1.1.1)
 
 
 # declare variables

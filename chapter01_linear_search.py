@@ -3,7 +3,7 @@
 
 
 # Introduction to Algorithms
-# Chapter 1 - Linear Search(1.3)
+# Chapter 1 - Linear Search(1.1.3)
 
 
 # declare variables
@@ -21,7 +21,7 @@ def insertion_sort(array_to_sort, V):
     Returns the index of a found match.
     Returns -1 if no matches are found.
 
-    (array) -> int
+    (array, int) -> int
 
 
     >>> insertion_sort([5, 2, 4, 6, 1, 3], 1)
